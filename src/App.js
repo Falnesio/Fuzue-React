@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import logo from "./logo.svg"
 import icone from "./icone.jpg"
 import "./App.css"
  
