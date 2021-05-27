@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <div>
-            <a>Contato: </a>
+            <p>Contato: </p>
             <a href="mailto: social@fuzue.art">
               social@fuzue.art
             </a>
