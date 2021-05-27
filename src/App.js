@@ -38,8 +38,9 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Contato: social@fuzue.art
+            Isso
           </p>
+          <LambdaDemo/>
         </header>
       </div>
     )
