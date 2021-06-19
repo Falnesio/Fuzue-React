@@ -4,7 +4,11 @@ import instagram from "./instagram.png"
 import "./App.css"
  
 
+
+
 class App extends Component {
+
+  
   render() {
     return (
       <div className="App">
@@ -12,9 +16,14 @@ class App extends Component {
           <img src={icone} className="App-logo" alt="logo" />
           <div>
             <p>Contato: </p>
-            <a href="mailto: social@fuzue.art">
-              social@fuzue.art
+            <a class="btn"  href="mailto: social@fuzue.art">
+              email: social@fuzue.art
             </a>
+            <div>
+              <a class="btn"  href="https://comunidade.fuzue.art">
+                comunidade
+              </a>
+            </div>
             <h1>Site em Construção</h1>
           </div>
           <a href="https://www.instagram.com/social.fuzue.art/">

@@ -38,3 +38,36 @@
 a {
   color:pink
 }
+
+/*cursor*/
+
+
+.btn {
+  --background: #5628ee;
+  --shadow: rgba(84, 40, 238, .16);
+  --y: 0;
+  display: -webkit-inline-box;
+  text-align: center;
+  padding: 12px 24px;
+  border-radius: 4px;
+  margin-top: 5px;
+  color: #fff;
+  background: var(--background);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  backface-visibility: hidden;
+  box-shadow: 0 4px 12px var(--shadow);
+  transform: translateY(var(--y));
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.btn:hover {
+  --y: -2px;
+  box-shadow: 0 8px 16px var(--shadow);
+}
+.btn:active {
+  --y: 1px;
+  box-shadow: 0 4px 8px var(--shadow);
+}
+
